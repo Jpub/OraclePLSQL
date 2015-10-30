@@ -1,0 +1,9 @@
+CREATE GLOBAL TEMPORARY TABLE temp1
+    (col1 NUMBER(3),col2 VARCHAR2(10))
+                    ON COMMIT DELETE ROWS;
+
+INSERT INTO temp1 VALUES(10,'Part1');
+
+INSERT INTO temp1 VALUES(20,'Part2');
+
+SELECT * FROM temp1;

@@ -1,0 +1,1 @@
+EXECUTE triangle(10,height=>20)

@@ -1,0 +1,22 @@
+CREATE OR REPLACE PACKAGE err_pack
+IS
+  null_error EXCEPTION;
+  PRAGMA EXCEPTION_INIT(null_error,-01400);
+  fetch_out EXCEPTION;
+  PRAGMA EXCEPTION_INIT(fetch_out,-1002);
+  lock_error EXCEPTION;
+  PRAGMA EXCEPTION_INIT(lock_error,-00060);
+END;
+/
+
+CREATE OR REPLACE PROCEDURE err_test
+IS
+BEGIN
+  INSERT INTO dept VALUES(null,'SE','TOKYO');
+EXCEPTION
+  WHEN err_pack.null_error THEN
+    DBMS_OUTPUT.PUT_LINE('NULL_ERROR!');
+END;
+/
+
+EXECUTE err_test

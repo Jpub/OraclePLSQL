@@ -1,0 +1,1 @@
+UPDATE emp SET sal = 500 WHERE empno = 7369;

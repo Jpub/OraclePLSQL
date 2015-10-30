@@ -1,0 +1,17 @@
+CREATE OR REPLACE PROCEDURE num_count
+IS
+  num NUMBER := 1;
+  bin BINARY_INTEGER := 1;
+BEGIN
+  FOR i IN 1..1000 LOOP
+    num := num + 1;
+    bin := bin + 1;
+  END LOOP;
+END;
+/
+
+EXECUTE DBMS_PROFILER.START_PROFILER('CHECK num_count')
+
+EXECUTE num_count
+
+EXECUTE DBMS_PROFILER.STOP_PROFILER

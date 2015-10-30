@@ -1,0 +1,4 @@
+CREATE OR REPLACE DIRECTORY utl_data
+AS 'C:\work';
+
+GRANT READ,WRITE ON DIRECTORY utl_data TO scott;

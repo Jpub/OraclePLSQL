@@ -1,0 +1,1 @@
+GRANT EXECUTE ON out_put TO usr1;

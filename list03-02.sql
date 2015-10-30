@@ -1,0 +1,8 @@
+DECLARE
+  var NUMBER := 20;
+BEGIN
+  IF var = 10 THEN
+    DBMS_OUTPUT.PUT_LINE('값은 10이다');
+  END IF;
+END;
+/

@@ -1,0 +1,1 @@
+GRANT create session,create trigger TO SCOTT;

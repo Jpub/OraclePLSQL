@@ -1,0 +1,3 @@
+COMMIT;
+
+SELECT * FROM temp1;

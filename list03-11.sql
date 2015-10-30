@@ -1,0 +1,7 @@
+BEGIN
+  LOOP
+    DBMS_OUTPUT.PUT_LINE('OK');
+    EXIT;
+  END LOOP;
+END;
+/

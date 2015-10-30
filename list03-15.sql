@@ -1,0 +1,7 @@
+BEGIN
+  FOR r IN 1..5 LOOP
+    CONTINUE WHEN r = 3;
+    DBMS_OUTPUT.PUT_LINE(r);
+  END LOOP;
+END;
+/

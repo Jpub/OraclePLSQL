@@ -1,0 +1,8 @@
+CREATE OR REPLACE PROCEDURE para_sample(para NUMBER)
+IS
+  no NUMBER;
+BEGIN
+  no := para + 100;
+  DBMS_OUTPUT.PUT_LINE(no);
+END;
+/

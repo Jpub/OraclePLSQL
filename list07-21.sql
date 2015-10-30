@@ -1,0 +1,1 @@
+SELECT triangle2(30,50) FROM dual;
