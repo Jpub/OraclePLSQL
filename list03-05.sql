@@ -1,15 +1,15 @@
-DECLARE
+ï»¿DECLARE
   var NUMBER := 20;
 BEGIN
   CASE var
     WHEN 10 THEN
-      DBMS_OUTPUT.PUT_LINE('°ªÀº 10');
+      DBMS_OUTPUT.PUT_LINE('ê°’ì€ 10');
     WHEN 20 THEN
-      DBMS_OUTPUT.PUT_LINE('°ªÀº 20');
+      DBMS_OUTPUT.PUT_LINE('ê°’ì€ 20');
     WHEN 30 THEN
-      DBMS_OUTPUT.PUT_LINE('°ªÀº 30');
+      DBMS_OUTPUT.PUT_LINE('ê°’ì€ 30');
     ELSE
-      DBMS_OUTPUT.PUT_LINE('°ªÀº ±× ¿Ü');
+      DBMS_OUTPUT.PUT_LINE('ê°’ì€ ê·¸ ì™¸');
   END CASE;
 
 END;

@@ -1,4 +1,4 @@
-CONNECT scott/tiger
+﻿CONNECT scott/tiger
 
 ALTER SESSION SET plsql_code_type = 'NATIVE';
 

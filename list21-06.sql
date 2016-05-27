@@ -1,4 +1,4 @@
-CREATE TABLE drop_table (time DATE,
+﻿CREATE TABLE drop_table (time DATE,
                          username VARCHAR2(15),
                          object_name VARCHAR2(30),
                          object_type VARCHAR2(15));

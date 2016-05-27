@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE tab IS TABLE OF dept%ROWTYPE
                  INDEX BY PLS_INTEGER;
   table_rec tab;

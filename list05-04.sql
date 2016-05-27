@@ -1,4 +1,4 @@
-DECLARE
+ÔªøDECLARE
   CURSOR emp_cl IS SELECT sal FROM emp
             WHERE deptno = 10 FOR UPDATE;
   cursor_err EXCEPTION;
@@ -12,6 +12,6 @@ BEGIN
   END LOOP;
 EXCEPTION
   WHEN cursor_err THEN
-    DBMS_OUTPUT.PUT_LINE('≥ª∫Œ ø°∑Ø∞° πﬂª˝!');
+    DBMS_OUTPUT.PUT_LINE('ÎÇ¥Î∂Ä ÏóêÎü¨Í∞Ä Î∞úÏÉù!');
 END;
 /

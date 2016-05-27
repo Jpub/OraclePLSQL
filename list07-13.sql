@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   var NUMBER;
 BEGIN
   triangle(20,30,var);

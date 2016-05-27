@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE varray_type IS VARRAY(2) OF VARCHAR2(10);
   varray1 varray_type;
 BEGIN

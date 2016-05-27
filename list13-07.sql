@@ -1,4 +1,4 @@
-CREATE TABLE cust
+﻿CREATE TABLE cust
 (cust_id NUMBER,cust_no VARCHAR2(32));
 
 set timing on

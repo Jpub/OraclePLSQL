@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE delete_table(tab_name VARCHAR2,
+﻿CREATE OR REPLACE PROCEDURE delete_table(tab_name VARCHAR2,
                                          clause VARCHAR2)
 IS
   sql_stmt VARCHAR2(100);

@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE file_unload_dept
+﻿CREATE OR REPLACE PROCEDURE file_unload_dept
 IS
   CURSOR dept_cur IS SELECT dname FROM dept;
   file_hand       UTL_FILE.FILE_TYPE;

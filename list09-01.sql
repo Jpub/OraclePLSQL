@@ -1,19 +1,19 @@
-CREATE OR REPLACE TRIGGER emp_nomod
+ï»¿CREATE OR REPLACE TRIGGER emp_nomod
 BEFORE INSERT OR DELETE OR UPDATE ON emp
 BEGIN
-  IF (TO_CHAR(SYSDATE,'DY') = 'ÀÏ') THEN
+  IF (TO_CHAR(SYSDATE,'DY') = 'ì¼') THEN
     IF DELETING THEN
       raise_application_error
-        (-20325,'ÀÏ¿äÀÏ¿¡ µ¥ÀÌÅÍ »èÁ¦´Â ÇÒ ¼ö ¾ø½À´Ï´Ù.');
+        (-20325,'ì¼ìš”ì¼ì— ë°ì´í„° ì‚­ì œëŠ” í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
     ELSIF INSERTING THEN
       raise_application_error
-        (-20326,'ÀÏ¿äÀÏ¿¡ µ¥ÀÌÅÍ Ãß°¡´Â ÇÒ ¼ö ¾ø½À´Ï´Ù.');
+        (-20326,'ì¼ìš”ì¼ì— ë°ì´í„° ì¶”ê°€ëŠ” í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
     ELSIF UPDATING THEN
       raise_application_error
-        (-20327,'ÀÏ¿äÀÏ¿¡ µ¥ÀÌÅÍ »èÁ¦´Â ÇÒ ¼ö ¾ø½À´Ï´Ù.');
+        (-20327,'ì¼ìš”ì¼ì— ë°ì´í„° ì‚­ì œëŠ” í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
     ELSE
       raise_application_error
-        (-20328,'ÀÏ¿äÀÏ¿¡ EMP Å×ÀÌºíÀÇ º¯°æÀº ÇÒ ¼ö ¾ø½À´Ï´Ù.');
+        (-20328,'ì¼ìš”ì¼ì— EMP í…Œì´ë¸”ì˜ ë³€ê²½ì€ í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
     END IF;
   ELSE NULL;
   END IF;

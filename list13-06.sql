@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE del_cascade(clause VARCHAR2,
+﻿CREATE OR REPLACE PROCEDURE del_cascade(clause VARCHAR2,
                                         val    VARCHAR2)
 IS
   d_deptno dept.deptno%TYPE;

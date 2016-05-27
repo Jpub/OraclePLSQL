@@ -1,8 +1,8 @@
-BEGIN
+锘緽EGIN
   GOTO label;
-    DBMS_OUTPUT.PUT_LINE('贸府1');
-    DBMS_OUTPUT.PUT_LINE('贸府2');
+    DBMS_OUTPUT.PUT_LINE('觳橂Μ1');
+    DBMS_OUTPUT.PUT_LINE('觳橂Μ2');
     <<label>>
-    DBMS_OUTPUT.PUT_LINE('LABEL 贸府');
+    DBMS_OUTPUT.PUT_LINE('LABEL 觳橂Μ');
 END;
 /

@@ -1,3 +1,3 @@
-SELECT sysdate FROM dual;
+﻿SELECT sysdate FROM dual;
 
-SELECT LENGTHB('��ý�Ʈ') FROM dual;
+SELECT LENGTHB('어시스트') FROM dual;

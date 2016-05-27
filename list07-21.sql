@@ -1,1 +1,1 @@
-SELECT triangle2(30,50) FROM dual;
+﻿SELECT triangle2(30,50) FROM dual;

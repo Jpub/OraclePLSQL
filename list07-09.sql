@@ -1,1 +1,1 @@
-EXECUTE triangle(10,20)
+﻿EXECUTE triangle(10,20)

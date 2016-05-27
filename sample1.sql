@@ -1,4 +1,4 @@
-BEGIN
+﻿BEGIN
   DBMS_OUTPUT.PUT_LINE('OK');
 END;
 /

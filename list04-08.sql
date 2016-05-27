@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   CURSOR emp_cur IS SELECT sal FROM emp
              WHERE deptno = 10 FOR UPDATE;
 BEGIN

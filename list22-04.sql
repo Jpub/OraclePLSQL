@@ -1,4 +1,4 @@
-CREATE TYPE topping_type IS TABLE OF VARCHAR2(10);
+﻿CREATE TYPE topping_type IS TABLE OF VARCHAR2(10);
 /
 
 CREATE TABLE ice_cream

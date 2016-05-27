@@ -1,1 +1,1 @@
-SHOW ERRORS procedure out_put
+﻿SHOW ERRORS procedure out_put

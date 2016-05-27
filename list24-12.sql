@@ -1,9 +1,9 @@
-CREATE OR REPLACE TRIGGER dept_check
+ï»¿CREATE OR REPLACE TRIGGER dept_check
 AFTER DELETE ON dept
 DECLARE
   mes VARCHAR2(100);
 BEGIN
-  mes := CONVERT('DEPT Å×ÀÌºíÀÌ »èÁ¦µÇ¾ú½À´Ï´Ù.','iso-2022-kr');
+  mes := CONVERT('DEPT í…Œì´ë¸”ì´ ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.','iso-2022-kr');
   UTL_MAIL.SEND(sender     => 'jeipub@gmail.com',
                 recipients => 'jeipub@gmail.com',
                 subject    => 'WARNING',

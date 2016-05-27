@@ -1,1 +1,1 @@
-GRANT create session,create trigger TO SCOTT;
+﻿GRANT create session,create trigger TO SCOTT;

@@ -1,4 +1,4 @@
-col name format a20
+﻿col name format a20
 col topping format a50
 
 INSERT INTO ice_cream VALUES('VANILLA',

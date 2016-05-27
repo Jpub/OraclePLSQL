@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE pipe_receive
+﻿CREATE OR REPLACE PROCEDURE pipe_receive
 IS
   msg VARCHAR2(4000);
   stat INTEGER:=0;

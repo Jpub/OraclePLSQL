@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   rec dept%ROWTYPE;
 BEGIN
   rec.deptno := 60;

@@ -1,4 +1,4 @@
-ALTER PACKAGE test_pack COMPILE BODY;
+﻿ALTER PACKAGE test_pack COMPILE BODY;
 
 SELECT object_name,object_type,status
 FROM   user_objects

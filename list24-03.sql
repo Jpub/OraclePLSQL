@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE alert_wait
+﻿CREATE OR REPLACE PROCEDURE alert_wait
 IS
   status INTEGER;
   mes    VARCHAR2(2000);

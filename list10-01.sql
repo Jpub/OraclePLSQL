@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE rec IS RECORD
     (a NUMBER(2),
      b VARCHAR2(6));

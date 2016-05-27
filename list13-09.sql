@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE c_tabtype IS TABLE OF cust%ROWTYPE
   INDEX BY PLS_INTEGER;
   c_tab c_tabtype;

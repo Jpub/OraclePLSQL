@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE open_emp(clause VARCHAR2)
+﻿CREATE OR REPLACE PROCEDURE open_emp(clause VARCHAR2)
 IS
   TYPE cv_type IS REF CURSOR;
   cur_cv cv_type;

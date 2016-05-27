@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   CURSOR emp_cur IS SELECT empno,ename FROM emp
                                 WHERE deptno = 10;
 BEGIN

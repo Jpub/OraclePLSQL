@@ -1,4 +1,4 @@
-DECLARE
+ï»¿DECLARE
   no  NUMBER;
   err EXCEPTION;
 BEGIN
@@ -8,6 +8,6 @@ BEGIN
   END IF;
 EXCEPTION
   WHEN err THEN
-    DBMS_OUTPUT.PUT_LINE('»ç¿ëÀÚ Á¤ÀÇ ¿¹¿Ü!');
+    DBMS_OUTPUT.PUT_LINE('ì‚¬ìš©ìž ì •ì˜ ì˜ˆì™¸!');
 END;
 /

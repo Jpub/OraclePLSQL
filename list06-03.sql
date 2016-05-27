@@ -1,1 +1,1 @@
-GRANT EXECUTE ON out_put TO usr1;
+﻿GRANT EXECUTE ON out_put TO usr1;

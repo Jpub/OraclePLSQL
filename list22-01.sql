@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE  nested_type IS TABLE OF VARCHAR2(10);
   nest1 nested_type;
 BEGIN

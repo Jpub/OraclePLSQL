@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE emp_type IS TABLE OF emp%ROWTYPE
   INDEX BY PLS_INTEGER;
   emp_tab emp_type;

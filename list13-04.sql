@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE delete_rows(clause VARCHAR2,
+﻿CREATE OR REPLACE PROCEDURE delete_rows(clause VARCHAR2,
                                         no NUMBER)
 IS
   sql_stmt VARCHAR2(100);

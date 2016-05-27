@@ -1,4 +1,4 @@
-set timing on
+﻿set timing on
 
 DECLARE
   TYPE num_rec IS TABLE OF cust.cust_id%TYPE

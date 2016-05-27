@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   c_count NUMBER := 0;
 BEGIN
   WHILE c_count < 3 LOOP

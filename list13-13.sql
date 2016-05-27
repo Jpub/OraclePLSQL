@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE tab_rec IS TABLE OF emp.empno%TYPE
   INDEX BY PLS_INTEGER;
   emp_no tab_rec;

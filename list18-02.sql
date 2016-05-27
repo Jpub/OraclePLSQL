@@ -1,4 +1,4 @@
-SHOW USER
+﻿SHOW USER
 
 REVOKE inherit privileges ON USER scott FROM public;
 

@@ -1,4 +1,4 @@
-SHOW USER
+﻿SHOW USER
 
 CREATE TABLE log_table (time DATE,
                         username VARCHAR2(15),

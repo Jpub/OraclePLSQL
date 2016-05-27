@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   TYPE tab IS TABLE OF VARCHAR2(10)
                  INDEX BY PLS_INTEGER;
   col_table tab;

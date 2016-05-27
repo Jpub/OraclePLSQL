@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE debug_test
+﻿CREATE OR REPLACE PROCEDURE debug_test
 IS
   sal_col   emp.sal%TYPE;
   comm_col  emp.comm%TYPE;

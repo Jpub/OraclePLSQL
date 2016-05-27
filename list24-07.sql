@@ -1,4 +1,4 @@
-SELECT job_name,job_action,
+﻿SELECT job_name,job_action,
        job_type,repeat_interval,
        to_char(last_start_date,'HH24:MI:SS'),
        to_char(next_run_date,'HH24:MI:SS')

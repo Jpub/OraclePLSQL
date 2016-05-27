@@ -1,1 +1,1 @@
-DEFINE_EDITOR = notepad
+﻿DEFINE_EDITOR = notepad

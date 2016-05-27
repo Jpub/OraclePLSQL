@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION tab_fun
+﻿CREATE OR REPLACE FUNCTION tab_fun
 RETURN nested_type PIPELINED
 IS
   nest nested_type := nested_type();

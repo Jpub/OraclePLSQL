@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE triangle(
+﻿CREATE OR REPLACE PROCEDURE triangle(
               base   IN  NUMBER DEFAULT 10,
               height IN  NUMBER DEFAULT 20,
               area   OUT NUMBER)

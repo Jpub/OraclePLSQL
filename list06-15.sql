@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   var1 NUMBER(1);
 BEGIN
   IF var1 + 10 = 10 THEN

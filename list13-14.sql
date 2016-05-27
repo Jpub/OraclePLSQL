@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE bulk_bind1
+ο»ΏCREATE OR REPLACE PROCEDURE bulk_bind1
            (e_sal NUMBER,clause VARCHAR2)
 IS
   TYPE empname IS TABLE OF emp.ename%TYPE
@@ -8,7 +8,7 @@ BEGIN
   EXECUTE IMMEDIATE 'UPDATE emp SET sal = :1
      WHERE '||clause||'RETURNING ename INTO :2'
         USING e_sal RETURNING BULK COLLECT INTO e_name;
-  DBMS_OUTPUT.PUT_LINE('±ήΏ©Έ¦ Ύχµ¥ΐΜΖ®ΗΡ ΑχΏψΈν');
+  DBMS_OUTPUT.PUT_LINE('κΈ‰μ—¬λ¥Ό μ—…λ°μ΄νΈν• μ§μ›λª…');
   DBMS_OUTPUT.PUT_LINE('--------------------');
   FOR i IN e_name.FIRST..e_name.LAST LOOP
     DBMS_OUTPUT.PUT_LINE(e_name(i));

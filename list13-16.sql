@@ -1,4 +1,4 @@
-SELECT runid,
+﻿SELECT runid,
   to_char(run_date,'YYYY-MM-DD HH24:MI:SS') day,
     run_comment
 FROM plsql_profiler_runs

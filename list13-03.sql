@@ -1,4 +1,4 @@
-ALTER SYSTEM SET plsql_code_type = 'NATIVE';
+﻿ALTER SYSTEM SET plsql_code_type = 'NATIVE';
 
 SHUTDOWN
 

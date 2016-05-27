@@ -1,7 +1,7 @@
-CREATE OR REPLACE TRIGGER alert_sent
+ï»¿CREATE OR REPLACE TRIGGER alert_sent
 AFTER DELETE ON dept
 BEGIN
   DBMS_ALERT.SIGNAL('ALERT_TEST',
-                    'DEPT Å×ÀÌºíÀÇ µ¥ÀÌÅÍ¸¦ »èÁ¦Çß½À´Ï´Ù.');
+                    'DEPT í…Œì´ë¸”ì˜ ë°ì´í„°ë¥¼ ì‚­ì œí–ˆìŠµë‹ˆë‹¤.');
 END;
 /

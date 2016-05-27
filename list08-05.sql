@@ -1,4 +1,4 @@
-CREATE OR REPLACE PACKAGE helper_pak
+﻿CREATE OR REPLACE PACKAGE helper_pak
   ACCESSIBLE BY (main_pak)
 IS
   PROCEDURE h1;

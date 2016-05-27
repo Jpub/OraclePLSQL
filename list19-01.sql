@@ -1,4 +1,4 @@
-SHOW USER
+﻿SHOW USER
 
 @%ORACLE_HOME%\rdbms\admin\utldtree.sql
 

@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE sql_select_dept
+﻿CREATE OR REPLACE PROCEDURE sql_select_dept
                        (where_clause VARCHAR2)
 IS
   cid  INTEGER;

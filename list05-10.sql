@@ -1,4 +1,4 @@
-DECLARE
+ÔªøDECLARE
   err EXCEPTION;
   CURSOR dept_cur IS SELECT deptno FROM dept;
 BEGIN
@@ -11,7 +11,7 @@ BEGIN
       END IF;
     EXCEPTION
       WHEN err THEN
-        DBMS_OUTPUT.PUT_LINE('øπø‹∞° πﬂª˝');
+        DBMS_OUTPUT.PUT_LINE('ÏòàÏô∏Í∞Ä Î∞úÏÉù');
     END;
   END LOOP;
 END;

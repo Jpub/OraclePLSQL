@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE emp_pro1(dno emp.deptno%TYPE)
+﻿CREATE OR REPLACE PROCEDURE emp_pro1(dno emp.deptno%TYPE)
 IS
   emp_cv cur_pack.emp_type;
 BEGIN

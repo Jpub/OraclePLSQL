@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   d_row dept%ROWTYPE;
 BEGIN
   SELECT deptno,dname,loc INTO d_row FROM dept

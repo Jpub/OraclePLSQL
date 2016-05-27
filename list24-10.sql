@@ -1,4 +1,4 @@
-col job_name      format a15
+﻿col job_name      format a15
 col schedule_name format a15
 col job_action    format a15
 

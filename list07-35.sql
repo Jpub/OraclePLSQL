@@ -1,4 +1,4 @@
-DROP FUNCTION fun1;
+﻿DROP FUNCTION fun1;
 
 SELECT object_name,object_type,status FROM user_objects
 WHERE object_name = 'PRO1';

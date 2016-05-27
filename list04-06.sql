@@ -1,1 +1,1 @@
-SELECT * FROM dept WHERE deptno = &ºÎ¼­¹øÈ£;
+ï»¿SELECT * FROM dept WHERE deptno = &ë¶€ì„œë²ˆí˜¸;

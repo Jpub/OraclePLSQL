@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   e_ename emp.ename%TYPE;
   e_hiredate emp.hiredate%TYPE;
 BEGIN

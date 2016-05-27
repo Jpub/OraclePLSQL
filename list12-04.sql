@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE select_dept
+﻿CREATE OR REPLACE PROCEDURE select_dept
                   (where_clause VARCHAR2)
 IS
   sql_stmt VARCHAR2(100);

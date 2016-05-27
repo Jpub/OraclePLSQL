@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE open_data(dept_no NUMBER)
+﻿CREATE OR REPLACE PROCEDURE open_data(dept_no NUMBER)
 IS
   TYPE cv_type IS REF CURSOR;
   cur_cv cv_type;

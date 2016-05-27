@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE emp_pro2(
+﻿CREATE OR REPLACE PROCEDURE emp_pro2(
                empcur IN cur_pack.emp_type)
 IS
   emp_var1 emp.empno%TYPE;

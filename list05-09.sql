@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   err EXCEPTION;
   CURSOR dept_cur IS SELECT deptno FROM dept;
 BEGIN
@@ -11,6 +11,6 @@ BEGIN
   END LOOP;
 EXCEPTION
   WHEN err THEN
-    DBMS_OUTPUT.PUT_LINE('���ܰ� �߻�');
+    DBMS_OUTPUT.PUT_LINE('예외가 발생');
 END;
 /

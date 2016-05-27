@@ -1,4 +1,4 @@
-SHOW USER
+﻿SHOW USER
 
 CREATE TABLE logoninfo_tbl (time DATE,
                             username VARCHAR2(15));

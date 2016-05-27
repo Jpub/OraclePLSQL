@@ -1,9 +1,9 @@
-DECLARE
+ï»¿DECLARE
   e_empno NUMBER;
 BEGIN
   SELECT empno INTO e_empno FROM emp;
 EXCEPTION
   WHEN others THEN
-    DBMS_OUTPUT.PUT_LINE('¿¹¿Ü ¹ß»ý!');
+    DBMS_OUTPUT.PUT_LINE('ì˜ˆì™¸ ë°œìƒ!');
 END;
 /

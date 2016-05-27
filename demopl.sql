@@ -1,4 +1,4 @@
-DROP TABLE EMP;
+﻿DROP TABLE EMP;
 DROP TABLE DEPT;
 drop table salgrade;
 drop table audit_table;

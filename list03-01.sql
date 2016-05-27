@@ -1,10 +1,10 @@
-DECLARE
+ï»¿DECLARE
   var NUMBER := 10;
 BEGIN
   IF var = 10 THEN
-    DBMS_OUTPUT.PUT_LINE('°ªÀº 10ÀÌ´Ù');
+    DBMS_OUTPUT.PUT_LINE('ê°’ì€ 10ì´ë‹¤');
   ELSE
-    DBMS_OUTPUT.PUT_LINE('°ªÀº 10ÀÌ ¾Æ´Ï´Ù');
+    DBMS_OUTPUT.PUT_LINE('ê°’ì€ 10ì´ ì•„ë‹ˆë‹¤');
   END IF;
 END;
 /

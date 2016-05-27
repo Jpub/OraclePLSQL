@@ -1,8 +1,8 @@
-CREATE OR REPLACE TRIGGER check_sal
+ï»¿CREATE OR REPLACE TRIGGER check_sal
 BEFORE UPDATE OF sal ON emp
 FOR EACH ROW
 WHEN(new.sal/old.sal<=0.7)
 BEGIN
-  raise_application_error(-20005,'ÇÑ°è °ªÀ» ÃÊ°úÇÑ °¨ºÀÀÔ´Ï´Ù');
+  raise_application_error(-20005,'í•œê³„ ê°’ì„ ì´ˆê³¼í•œ ê°ë´‰ìž…ë‹ˆë‹¤');
 END;
 /

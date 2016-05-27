@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   var NUMBER;
 BEGIN
   var := triangle2(30,50);

@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   CURSOR emp_cur(d_no NUMBER) IS SELECT empno,ename FROM emp
                                          WHERE deptno = d_no;
   d_var  NUMBER;

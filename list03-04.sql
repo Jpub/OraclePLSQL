@@ -1,14 +1,14 @@
-DECLARE
+ï»¿DECLARE
   var NUMBER := 15;
 BEGIN
   IF var < 10 THEN
-    DBMS_OUTPUT.PUT_LINE('°ªÀº 10º¸´Ù ÀÛ´Ù');
+    DBMS_OUTPUT.PUT_LINE('ê°’ì€ 10ë³´ë‹¤ ìž‘ë‹¤');
   ELSIF var < 20 THEN
-    DBMS_OUTPUT.PUT_LINE('°ªÀº 20º¸´Ù ÀÛ´Ù');
+    DBMS_OUTPUT.PUT_LINE('ê°’ì€ 20ë³´ë‹¤ ìž‘ë‹¤');
   ELSIF var < 30 THEN
-    DBMS_OUTPUT.PUT_LINE('°ªÀº 30º¸´Ù ÀÛ´Ù');
+    DBMS_OUTPUT.PUT_LINE('ê°’ì€ 30ë³´ë‹¤ ìž‘ë‹¤');
   ELSE
-    DBMS_OUTPUT.PUT_LINE('±× ¿Ü');
+    DBMS_OUTPUT.PUT_LINE('ê·¸ ì™¸');
   END IF;
 END;
 /

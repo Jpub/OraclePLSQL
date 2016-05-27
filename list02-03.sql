@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   var dept.deptno%TYPE;
 BEGIN
   SELECT deptno INTO var FROM dept

@@ -1,4 +1,4 @@
-col schedule_name   format a15
+﻿col schedule_name   format a15
 col schedule_type   format a10
 col repeat_interval format a30
 

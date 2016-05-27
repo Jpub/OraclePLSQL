@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   var1 NUMBER :=3;
   var2 NUMBER :=2;
 BEGIN

@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE inout_sample(no IN OUT NUMBER)
+﻿CREATE OR REPLACE PROCEDURE inout_sample(no IN OUT NUMBER)
 IS
 BEGIN
   no := no + 100;

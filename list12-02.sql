@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE drop_table(tab_name VARCHAR2)
+﻿CREATE OR REPLACE PROCEDURE drop_table(tab_name VARCHAR2)
 IS
   sql_stmt VARCHAR2(100) := 'DROP TABLE '|| tab_name;
 BEGIN

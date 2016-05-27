@@ -1,4 +1,4 @@
-DECLARE
+﻿DECLARE
   var VARCHAR2(2) := 'OK';
 BEGIN
   IF var = 'OK'
